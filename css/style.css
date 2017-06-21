@@ -1,0 +1,126 @@
+html{font-size:110%;} 
+@media(min-width:60em){html{font-size: 90%}}
+
+.branding {
+	font-size: 17px;
+}
+
+.showcase {
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/showcase.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 700px;
+	padding: 180px 100px;
+	color: #fff;
+}
+
+
+.showcase h1 {
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+hr {
+	width: 100px;
+	margin: auto;
+	border-width: 3px;
+	border-color: #f44336;
+}
+
+.showcase p {
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+
+.section {
+	padding: 40px 0px;
+}
+
+.section h2 {
+	font-size: 35px;
+	padding: 0;
+	margin: 0;
+}
+.section h3{
+	font-size: 20px;
+}
+
+.section .fa {
+	font-size: 50px;
+}
+
+.section img {
+	width: 100%;
+
+}
+#about img{
+filter: brightness(90%);
+}
+
+.material-icons {
+	color: black;
+	font-size: 90px;
+}
+.statIcon{
+	color: black;
+	font-size: 90px;
+}
+
+#contact img {
+	height: 50px;
+	width: auto;
+	margin: 4px;
+	border-radius: 5px;
+}
+
+#forIcons {
+	margin-top: 20px;
+
+}
+#forIcons i{
+	color: red;
+}
+
+#footerCol {
+	height: 300px;
+	padding: 50px 40px;
+	font-size: 16px;
+}
+
+#footerCol img {
+	height: 50px;
+	width: auto;
+	margin: 4px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.icons{
+	margin-top: 20px;
+}
+
+#footerCol img:hover {
+	border-radius: 25px;
+}
+.longLine{
+	margin-top: 30px;
+	padding-bottom: 30px;
+	width: 80%;
+	height:5px;
+}
+.logosCompany img{
+
+	height:80px;
+	width:auto;
+}
+
+i @media only screen and (max-width:600px) {
+	body {
+		margin-top: 280px;
+	}
+	.showcase {
+		height: 450px;
+		padding: 60px 0;
+	}
+}
