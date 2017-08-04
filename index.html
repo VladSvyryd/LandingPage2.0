@@ -9,8 +9,9 @@
 		<link rel="stylesheet" href="css/w3.css">
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
 		<script type="text/javascript" src="js\traders.js"></script>
+		<script type="text/javascript" src="js\traders2.js"></script>
 		<script type="text/javascript" src="js\jquery-3.2.1.min.js"></script>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
@@ -358,7 +359,7 @@
 	                            <div class="w3-col-md-12">
 
 	                                <div class="w3-row traders-container">
-	                                    <div class="trader-img daily-trades"><img src="img/logosCompany/dailytrades.png" alt="" onclick="addTraderId(1,'img/logosCompany/dailytrades.png')"></div>
+	                                    <div class="trader-img daily-trades"><img src="img/logosCompany/dailytrades.png" alt="" onclick="addTraderId2a(1,'img/logosCompany/dailytrades.png')"></div>
 	                                    <div class="trader-img 24-options"><img src="img/logosCompany/24option.png"  onclick="addTraderId(2,'img/logosCompany/24option.png')" alt=""></div>
 	                                    <div class="trader-img banc-de-binary"><img src="img/logosCompany/bancdebinary.png"  onclick="addTraderId(3,'img/logosCompany/bancdebinary.png')" alt=""></div>
 	                                    <div class="trader-img binary-uno"><img src="img/logosCompany/binaryuno.jpg" onclick="addTraderId(4,'img/logosCompany/binaryuno.jpg')" alt=""></div>
@@ -401,13 +402,13 @@
 
 	                        <div class="trade-logo-popup">
 
-	                            <div class="popUp brokers-popup">
+	                            <div class="popUp brokers-popup w3-row m6">
 	                                <div class="trade-popup-content">
 
-	                                    <div class="w3-col m12">
+	                                    <div class="w3-row m3 w3-red">
 	                                        <span class="close"><i class="fa fa-close"></i></span>
 	                                    </div>
-	                                    <div class="w3-col m12">
+	                                    <div class="w3-col m12 w3-white">
 	                                        <div class="trader-logo"></div>
 	                                        <p class="broker-name"></p>
 	                                        <p class="text"><span class="trader-popup-text"></span><br>Оплачивали картой? Тогда мы можем помочь!</p>
@@ -475,7 +476,7 @@
 		<div id="start-modal" class="w3-modal">
 			<div class="w3-modal-content">
 				<header class="w3-container w3-red">
-					<span onclick="document.getElementById('start-modal').style.display='none'" class="w3-closebtn">&times;</span>
+					<span onclick="document.getElementById('start-modal').style.display="none" class="w3-closebtn">&times;</span>
 					<h2>Оставить заявку</h2>
 				</header>
 
@@ -500,14 +501,7 @@
 			</div>
 		</div>
 
-
-
-
-
-
-
-
-
+=?ÖK':C- 
 		<script>
 			function accFunction(id) {
 				var x = document.getElementById(id);

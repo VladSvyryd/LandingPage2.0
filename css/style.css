@@ -178,9 +178,9 @@ filter: brightness(90%);
 .trade-popup-content{
     background-color: #fefefe;
     margin: 15% auto !important;
-    padding: 20px;
+    
     border: 5px solid #ccc;
-    width: 40% !important;
+    width: 60% !important;
 }
 
 .trade-popup-content img{
