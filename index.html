@@ -1,24 +1,24 @@
 	<!DOCTYPE html>
-	<html lang="en">
+	<html lang="ru">
 
 	<head>
 		<meta charset="UTF-8">
+		<!--<meta name="viewport" contetn="width=device-width, initial-scale=1">*/-->
 		<title>R-Solutions</title>
 
-		<meta name="viewport" contetn="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/w3.css">
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
-		<script type="text/javascript" src="js\traders.js"></script>
-		<script type="text/javascript" src="js\traders2.js"></script>
-		<script type="text/javascript" src="js\jquery-3.2.1.min.js"></script>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		 <script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/php" src="js/emailRequest.php"></script>
+
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 
 	<body>
 
-		<! -- NAVIGATION -->
+		<!-- NAVIGATION -->
 		<div class="w3-top">
 
 
@@ -39,7 +39,7 @@
 			</div>
 		</div>
 
-		<! -- SHOWCASE -->
+		<!-- SHOWCASE -->
 
 
 		<section class="showcase">
@@ -60,9 +60,9 @@
 
 
 
-		<! -- Services HEADING -->
+		<!-- Services HEADING -->
 
-		<section if="services" class="section w3-red w3-hover-opacity">
+		<section id="services" class="section w3-red w3-hover-opacity">
 
 			<div class="w3-container w3-center">
 
@@ -76,6 +76,9 @@
 			</div>
 
 		</section>
+
+
+
 		<section class="section w3-light-grey ">
 
 			<div id="forIcons" class=" w3-center">
@@ -116,10 +119,10 @@
 					<h3>Деньги вернутся на Ваш счет! (мгновенно)
 					</h3>
 				</div>
-			
+
 
 			</div>
-			
+</div>
 
 
 		</section>
@@ -129,7 +132,7 @@
 
 
 
-		<! -- SECTION 2 -->
+		<!-- SECTION 2 -->
 
 		<section class="section w3-grey w3-hover-opacity">
 
@@ -173,7 +176,7 @@
 		</section>
 
 
-		<! -- About -->
+		<!-- About -->
 
 		<section id ="about"  class="section ">
 
@@ -280,9 +283,9 @@
 
 		</section>
 
-		
 
-		<! -- CONTACT -->
+
+		<!-- CONTACT -->
 
 		<section id="contact" class="section w3-dark-grey w3-hover-opacity">
 
@@ -308,7 +311,7 @@
 				</div>
 
 
-				
+
 
 
 				<hr>
@@ -319,14 +322,14 @@
 			</div>
 
 		</section>
-		<! -- CONTACTFORM -->
+		<!-- CONTACTFORM -->
 
 		<section class="section">
 
 			<div class="w3-container">
 
 				<div class="w3-row m6">
-					
+
 					<div class="w3-container w3-dark-grey">
 						<h2 class="w3-center">Оставьте заявку и получите бесплатную консультацию</h2>
 					</div>
@@ -352,7 +355,7 @@
 						<br><br>
 
 					</form>
-
+</div>
 				</div>
 	                        <div class="row traders-main-container">
 
@@ -398,69 +401,35 @@
 
 	                            </div>
 
-	                        </div>   
-
-	                        <div class="trade-logo-popup">
-
-	                            <div class="popUp brokers-popup w3-row m6">
-	                                <div class="trade-popup-content">
-
-	                                    <div class="w3-row m3 w3-red">
-	                                        <span class="close"><i class="fa fa-close"></i></span>
-	                                    </div>
-	                                    <div class="w3-col m12 w3-white">
-	                                        <div class="trader-logo"></div>
-	                                        <p class="broker-name"></p>
-	                                        <p class="text"><span class="trader-popup-text"></span><br>Оплачивали картой? Тогда мы можем помочь!</p>
-
-	                                        <p class="free-consult">Закажите бесплатную консультацию!</p>
-
-	                                        <form method="POST" class="formx2" action="javascript:void(null);" onsubmit="call2()" name="R-solitions">
-	                                            <input type="hidden" name = "imgId" value = "brokerName" class="letterSubject">
-	                                            <input type="text" name="name" placeholder="ФИО*" required>
-	                                            <input type="text" name="phone-number" placeholder="Телефон*" required>
-	                                            <input type="text" name="email" placeholder="Email*" required>
-	                                            <input type="text" name="skype" placeholder="Skype">
-	                                            <button class="btn" type="submit" id="call-me" >Перезвоните мне!</button>
-	                                        </form>
-	                                    </div>
-
-	                                </div>
-	                            </div>
-
-
 	                        </div>
-
-
-
-		</section>
+</section>
 
 
 		<!-- FOOTER -->
 
 		<footer class="w3-black w3-padding-xlarge w3-center">
 			<div class="w3-container w3-center">
-				<div id="footerCol" class="w3-col m4">
+				<div class="footerCol w3-col m4">
 					<p>Skype: Info@chargeback.ltd</p>
 					<p>Viber: 8 (967) 237 7570</p>
 					<p>Whatsapp: 8 (967) 237 7570 </p>
 					<p>Mail: Info@chargeback.ltd </p>
 					<p>Finance@chargeback.ltd</p>
 				</div>
-				<div id="footerCol" class="w3-col m4">
+				<div class="footerCol w3-col m4">
 					<p>Время работы: Пн-Пт: 12:00 – 20:00 (по МСК) Сб-Вс: выходной</p>
 				</div>
-				<div id="footerCol" class="w3-col m4">
+				<div class="footerCol w3-col m4">
 					<div class="w3-row-padding icons">
-						<a href="https://www.facebook.com/groups/Chargeback.ltd" target="_blank"><img src="img/facebook.png" alt=""></a>
-						<a href="https://twitter.com/ChargebackL " target="_blank"><img src="img/twitter.png" alt=""></a>
-						<a href="https://vk.com/chargeback_ltd" target="_blank"><img src="img/vk.png" alt=""></a>
+						<a href="" target="_blank"><img src="img/facebook.png" alt=""></a>
+						<a href=" " target="_blank"><img src="img/twitter.png" alt=""></a>
+						<a href="" target="_blank"><img src="img/vk.png" alt=""></a>
 					</div>
 					<div class="w3-row ">
-						<a href="https://ok.ru/group/54441005809894" target="_blank"><img src="img/odnoklassniki.png" alt=""></a>
-						<a class="mailru" href="http://my.mail.ru/community/chargeback.ltd" target="_blank"><img src="img/mailru.png" alt=""></a>
-						<a href="http://chargebackltd.livejournal.com/" target="_blank"> <img src="img/livejournal.png" alt=""></a>
-						<a href="https://plus.google.com/communities/114796843876116947964" target="_blank"><img src="img/google.png" alt=""></a>
+						<a href="" target="_blank"><img src="img/odnoklassniki.png" alt=""></a>
+						<a class="mailru" href="" target="_blank"><img src="img/mailru.png" alt=""></a>
+						<a href="" target="_blank"> <img src="img/livejournal.png" alt=""></a>
+						<a href="" target="_blank"><img src="img/google.png" alt=""></a>
 					</div>
 				</div>
 
@@ -476,23 +445,25 @@
 		<div id="start-modal" class="w3-modal">
 			<div class="w3-modal-content">
 				<header class="w3-container w3-red">
-					<span onclick="document.getElementById('start-modal').style.display="none" class="w3-closebtn">&times;</span>
+					<span onclick="document.getElementById('start-modal').style.display='none'" class="w3-button w3-large w3-display-topright">&times;</span>
+
+
 					<h2>Оставить заявку</h2>
 				</header>
 
 				<div class="w3-container">
-					<form>
+					<form  method="post">
 						<div class="w3-section">
 							<label>Имя*</label>
-							<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Имя" required>
+							<input class="w3-input w3-border w3-margin-bottom" name="name" type="text" placeholder="Имя" required>
 							<label>Фамилия*</label>
-							<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Фамилия" required>
+							<input class="w3-input w3-border w3-margin-bottom"  type="text" placeholder="Фамилия" required>
 							<label>Email*</label>
-							<input class="w3-input w3-border w3-margin-bottom" type="email" placeholder="email@gmail.com" required>
+							<input class="w3-input w3-border w3-margin-bottom" name = "email" type="email" placeholder="email@gmail.com" required>
 							<label>Сообщение</label>
-							<textarea class="w3-input w3/border" style="resize:none"></textarea>
+							<textarea class="w3-input w3/border" name="message" style="resize:none"></textarea>
 							<br>
-							<button class="w3-black w3-btn-block w3-section w3-padding w3-hover-red">Submit</button>
+							<button class="w3-black w3-btn-block w3-section w3-padding w3-hover-red" type="submit">Submit</button>
 							<br><br>
 
 						</div>
@@ -501,7 +472,6 @@
 			</div>
 		</div>
 
-=?ÖK':C- 
 		<script>
 			function accFunction(id) {
 				var x = document.getElementById(id);
