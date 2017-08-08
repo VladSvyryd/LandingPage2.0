@@ -1,5 +1,6 @@
 <?php
 if(isset($_POST["name"]) && isset($_POST["email"])){
+  console.log("now");
 $name = $_POST["name"];
 $email = $_POST["email"];
 $to = "vladonius@gmail.com"

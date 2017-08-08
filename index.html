@@ -19,7 +19,7 @@
 	<body>
 
 		<!-- NAVIGATION -->
-		<div class="w3-top">
+		<div class="w3-top w3-row">
 
 
 
@@ -31,9 +31,9 @@
 						<a href="#" class="w3-bar-item w3-button w3-green w3-mobile w3-hover-red"><i class="fa fa-home"></i></a>
 						<a href="#about" class="w3-bar-item w3-button w3-mobile w3-hover-red">О нас</a>
 						<a href="#services" class="w3-bar-item w3-button w3-mobile w3-hover-red">Наши услуги</a>
-						<a href="#reviews" class="w3-bar-item w3-button w3-mobile w3-hover-red">Отзывы</a>
+						<a href="comments.html" class="w3-bar-item w3-button w3-mobile w3-hover-red">Отзывы</a>
 						<a href="#works" class="w3-bar-item w3-button w3-mobile w3-hover-red">Работы</a>
-						<a href="#faq" class="w3-bar-item w3-button w3-mobile w3-hover-red">Помощь</a>
+						<a href="help.html" class="w3-bar-item w3-button w3-mobile w3-hover-red">Помощь</a>
 						<a href="#contact" class="w3-bar-item w3-button w3-mobile w3-hover-red">Контакты</a>
 					</span>
 			</div>
@@ -334,24 +334,24 @@
 						<h2 class="w3-center">Оставьте заявку и получите бесплатную консультацию</h2>
 					</div>
 
-					<form class="w3-container w3-padding-xlarge">
+					<form class="w3-container w3-padding-xlarge" method="post">
 
 						<label>Имя*</label>
-						<input class="w3-input" type="text">
+						<input class="w3-input" type="text" name="name">
 
 						<label>Фамилия*</label>
-						<input class="w3-input" type="text">
+						<input class="w3-input" type="text" name="name">
 
 						<label>Телефон*</label>
-						<input class="w3-input" type="text">
+						<input class="w3-input" type="text" name="email">
 
 						<label>Skype</label>
-						<input class="w3-input " type="text">
+						<input class="w3-input " type="text" name="skype">
 
 						<label>Сообщение*</label>
-						<textarea class="w3-input w3/border" style="resize:none"></textarea>
+						<textarea class="w3-input w3/border" style="resize:none" name="message"></textarea>
 						<br>
-						<button type="submit" class="w3-button"> Отправить</button>
+						<button type="submit" class="w3-button w3-red"> Отправить</button>
 						<br><br>
 
 					</form>

@@ -65,6 +65,33 @@ hr {
 	width: 100%;
 
 }
+.section h4{
+	font-size: 27px;
+	font-weight:450;
+
+	/*background-color: #b2b2b2;*/
+}
+.help li , p{
+font-size:17px;
+
+
+}
+.help{
+	margin: 10px 55px;
+}
+.comments-container{
+	margin: 0% 0%;
+}
+.comments h3, p {
+margin-left: 20px ;
+}
+.comments p{
+	margin-bottom: 20px
+}
+.comments img{
+	margin: 10px 20px;
+	max-width: 120px;
+}
 #about img{
 filter: brightness(90%);
 }
@@ -234,6 +261,7 @@ filter: brightness(90%);
 @media only screen and (max-width:600px) {
 	body {
 		margin-top: 280px;
+		background-color: rgb(187,187,187);
 	}
 	.showcase {
 		height: 450px;
@@ -252,5 +280,6 @@ filter: brightness(90%);
 	.pics img{
 		height: 70px;
 	}
+
 
 }
