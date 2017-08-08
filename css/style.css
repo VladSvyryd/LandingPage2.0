@@ -1,4 +1,4 @@
-html{font-size:110%;} 
+html{font-size:110%;}
 @media(min-width:60em){html{font-size: 90%}}
 
 .branding {
@@ -93,7 +93,7 @@ filter: brightness(90%);
 	align-content: center;
     justify-content: center;
     text-align: center;
-	
+
 }
 
 #forIcons {
@@ -104,13 +104,13 @@ filter: brightness(90%);
 	color: red;
 }
 
-#footerCol {
+.footerCol {
 	height: 300px;
 	padding: 50px 40px;
 	font-size: 16px;
 }
 
-#footerCol img {
+.footerCol img {
 	height: 50px;
 	width: auto;
 	margin: 4px;
@@ -121,7 +121,7 @@ filter: brightness(90%);
 	margin-top: 20px;
 }
 
-#footerCol img:hover {
+.footerCol img:hover {
 	border-radius: 25px;
 }
 .longLine{
@@ -135,7 +135,7 @@ filter: brightness(90%);
 	height:100px;
 	width:auto;
 	align-self: center;
-	
+
 }
 
 .logosCompany img{
@@ -178,7 +178,7 @@ filter: brightness(90%);
 .trade-popup-content{
     background-color: #fefefe;
     margin: 15% auto !important;
-    
+
     border: 5px solid #ccc;
     width: 60% !important;
 }
@@ -247,10 +247,10 @@ filter: brightness(90%);
 
 	display: block;
 	padding: 70px;
-	
+
 	}
 	.pics img{
 		height: 70px;
 	}
-	
+
 }
