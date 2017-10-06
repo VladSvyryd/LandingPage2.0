@@ -28,21 +28,8 @@ $(window).scroll(function(){
 		console.log("hi");
 		
 		(function(){
-			 var timeO = 3000; 
-        $('.animeS').each(function(){
-            var v = 123;
-            var o = new Odometer({
-                el: this,
-                value: 123,
-                theme: "car"
-            });
-            o.render();
-            setInterval(function(){
-                o.update(768);
-               
-            }, timeO);
-            
-        });
+			  some(768);
+       
     })();
 	}
 	
@@ -51,5 +38,22 @@ $(window).scroll(function(){
 	*/
 		
 });
+
+function some (ik){
+	 $('.animeS').each(function(){
+            var v = 123;
+            var o = new Odometer({
+                el: this,
+                value: 123,
+                theme: "car"
+            });
+            o.render();
+            setInterval(function(){
+                o.update(ik);
+               
+            }, 1000);
+            
+        });
+}
 
 
