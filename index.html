@@ -10,7 +10,10 @@
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		 <script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
+		<script src="numANimation.js"></script>
+		<script src="http://github.hubspot.com/odometer/odometer.js"></script>
 		<script type="text/php" src="js/emailRequest.php"></script>
 
 		<link rel="stylesheet" href="css/style.css">
@@ -32,7 +35,7 @@
 						<a href="#about" class="w3-bar-item w3-button w3-mobile w3-hover-red">О нас</a>
 						<a href="#services" class="w3-bar-item w3-button w3-mobile w3-hover-red">Наши услуги</a>
 						<a href="comments.html" class="w3-bar-item w3-button w3-mobile w3-hover-red">Отзывы</a>
-						<a href="#works" class="w3-bar-item w3-button w3-mobile w3-hover-red">Работы</a>
+						<a href="works.html" class="w3-bar-item w3-button w3-mobile w3-hover-red">Работы</a>
 						<a href="help.html" class="w3-bar-item w3-button w3-mobile w3-hover-red">Помощь</a>
 						<a href="#contact" class="w3-bar-item w3-button w3-mobile w3-hover-red">Контакты</a>
 					</span>
@@ -136,7 +139,7 @@
 
 		<section class="section w3-grey w3-hover-opacity">
 
-			<div class="w3-container w3-center">
+			<div class="w3-container w3-center " id="odometer">
 				<i class="material-icons">trending_up</i>
 				<h2>Статистика</h2>
 
@@ -145,27 +148,51 @@
 				<br>
 
 				<div class="w3-col m3">
-
+					<div class="w3-row w3-padding-xlarge m6">
+					<div  class="animeS odometer">000</div>
+						
+					</div>
+					<div class="w3-row-paddings m6">
 					<i class="fa fa-users statIcon" aria-hidden="true"></i>
 					<p>клиентов</p>
+						
+					</div>
 
 				</div>
 				<div class="w3-col m3">
+					<div class="w3-row-padding m6">
+					<div  class="animeS odometer">000</div>	
+					</div>
+					<div class="w3-row-padding m6">
+						
 					<i class="fa fa-trophy" aria-hidden="true"></i>
 					<p>выигранных дел</p>
+					</div>
 
 				</div>
 				<div class="w3-col m3">
-
+					<div class="w3-row-padding m6">
+					<div  class="animeS odometer">000</div>	
+					</div>
+					<div class="w3-row-padding m6">
+						
 					<i class="fa fa-usd" aria-hidden="true"></i>
 					<p>вернули нашим клиентам</p>
+					</div>
+					
 
 				</div>
 
 				<div class="w3-col m3">
-
+					<div class="w3-row-padding m6">
+					<div  class="animeS odometer">000</div>	
+					</div>
+					<div class="w3-row-padding m6">
+						
 					<i class="fa fa-handshake-o" aria-hidden="true"></i>
 					<p>брокера вернули средства</p>
+					</div>
+					
 
 				</div>
 
@@ -337,21 +364,23 @@
 					<form class="w3-container w3-padding-xlarge" method="post">
 
 						<label>Имя*</label>
-						<input class="w3-input" type="text" name="name">
+						<input class="w3-input" type="text" name="name" placeholder = "Александ">
 
 						<label>Фамилия*</label>
-						<input class="w3-input" type="text" name="name">
+						<input class="w3-input" type="text" name="name" placeholder = "Иванов">
 
 						<label>Телефон*</label>
-						<input class="w3-input" type="text" name="email">
+						<input class="w3-input" type="text" name="email" placeholder = "muster@gmail.com">
 
 						<label>Skype</label>
-						<input class="w3-input " type="text" name="skype">
+						<input class="w3-input " type="text" name="skype" placeholder = "nickname">
 
 						<label>Сообщение*</label>
 						<textarea class="w3-input w3/border" style="resize:none" name="message"></textarea>
 						<br>
-						<button type="submit" class="w3-button w3-red"> Отправить</button>
+						
+						<button type="submit" class="w3-button w3-red w3-hover-green"> Отправить</button>
+					
 						<br><br>
 
 					</form>
@@ -457,13 +486,19 @@
 							<label>Имя*</label>
 							<input class="w3-input w3-border w3-margin-bottom" name="name" type="text" placeholder="Имя" required>
 							<label>Фамилия*</label>
-							<input class="w3-input w3-border w3-margin-bottom"  type="text" placeholder="Фамилия" required>
+							<input class="w3-input w3-border w3-margin-bottom" name="secName"  type="text" placeholder="Фамилия" required>
+							<label>Телефон*</label>
+							<input class="w3-input w3-border w3-margin-bottom" name="PhNumber" type="text" placeholder="Телефон" required>
 							<label>Email*</label>
 							<input class="w3-input w3-border w3-margin-bottom" name = "email" type="email" placeholder="email@gmail.com" required>
+							<label>Skype</label>
+							<input class="w3-input w3-border w3-margin-bottom" name = "Skype" type="text">
 							<label>Сообщение</label>
 							<textarea class="w3-input w3/border" name="message" style="resize:none"></textarea>
 							<br>
-							<button class="w3-black w3-btn-block w3-section w3-padding w3-hover-red" type="submit">Submit</button>
+							<div class="w3-container w3-center">
+							<button class="w3-red w3-btn-block w3-padding w3-center w3-hover-green" type="submit">Отправить</button>
+							</div>
 							<br><br>
 
 						</div>
