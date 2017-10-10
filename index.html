@@ -4,17 +4,19 @@
 	<head>
 		<meta charset="UTF-8">
 		<!--<meta name="viewport" contetn="width=device-width, initial-scale=1">*/-->
-		<title>R-Solutions</title>
+		<title>ULIVEXFIN</title>
 
 		<link rel="stylesheet" href="css/w3.css">
-
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="http://github.hubspot.com/odometer/odometer.js"></script>
 		<link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
-		<script src="numANimation.js"></script>
 		<script src="http://github.hubspot.com/odometer/odometer.js"></script>
+
+		<script src="numANimation.js"></script>
+		<script src="sendEmail.js"></script>
+
 		<script type="text/php" src="js/emailRequest.php"></script>
 
 		<link rel="stylesheet" href="css/style.css">
@@ -30,7 +32,7 @@
 			<div class="w3-bar w3-black">
 
 
-				<span class="branding w3-bar-item w3-mobile">R-SOLUTION</span>
+				<span class="branding w3-bar-item w3-mobile">ULIVEXFIN</span>
 				<span class="w3-right w3-mobile">
 						<a href="#" class="w3-bar-item w3-button w3-green w3-mobile w3-hover-red"><i class="fa fa-home"></i></a>
 						<a href="#about" class="w3-bar-item w3-button w3-mobile w3-hover-red">О нас</a>
@@ -39,6 +41,7 @@
 						<a href="works.html" class="w3-bar-item w3-button w3-mobile w3-hover-red">Работы</a>
 						<a href="help.html" class="w3-bar-item w3-button w3-mobile w3-hover-red">Помощь</a>
 						<a href="#contact" class="w3-bar-item w3-button w3-mobile w3-hover-red">Контакты</a>
+						<!--<a href="no.php" class="w3-bar-item w3-button w3-mobile w3-hover-red">No</a>-->
 					</span>
 			</div>
 		</div>
@@ -46,9 +49,9 @@
 		<!-- SHOWCASE -->
 
 
-		<section class="showcase">
+		<section class="showcase w3-container">
 
-			<div class="w3-container w3-center">
+			<div class="w3-container w3-center w3-row">
 
 				<h1 class="w3-text-shadow w3-animate-opacity">Время возвращать потерянные деньги</h1>
 				<hr>
@@ -66,7 +69,7 @@
 
 		<!-- Services HEADING -->
 
-		<section id="services" class="section  w3-red w3-hover-opacity">
+		<section id="services" class="section  w3-red w3-hover-deep-orange">
 
 			<div class="w3-container w3-center">
 
@@ -138,9 +141,9 @@
 
 		<!-- SECTION 2 -->
 
-		<section class="section w3-grey w3-hover-opacity">
+		<section class="section w3-grey w3-hover-dark-gray">
 
-			<div class="w3-container w3-center " id="odometer">
+			<div class="w3-container w3-center w3-row " id="odometer">
 				<i class="material-icons">trending_up</i>
 				<h2>Статистика</h2>
 
@@ -150,50 +153,50 @@
 
 				<div class="w3-col m3">
 					<div class="w3-row w3-padding-xlarge m6">
-					<div  class="animeS odometer">000</div>
-						
+					<div  class="animeS1 odometer">000</div>
+
 					</div>
-					<div class="w3-row-paddings m6">
+					<div class="w3-row-paddings m6 w3-margin-top">
 					<i class="fa fa-users statIcon" aria-hidden="true"></i>
 					<p>клиентов</p>
-						
+
 					</div>
 
 				</div>
 				<div class="w3-col m3">
-					<div class="w3-row-padding m6">
-					<div  class="animeS odometer">000</div>	
+					<div class="w3-row-padding m6 ">
+					<div class="animeS2 odometer"></div>
+					<i class="fa fa-percent statIcon" aria-hidden="true"></i>
 					</div>
-					<div class="w3-row-padding m6">
-						
-					<i class="fa fa-trophy" aria-hidden="true"></i>
+					<div class="w3-row-padding m6 w3-margin-top">
+					<i class="fa fa-trophy statIcon" aria-hidden="true"></i>
 					<p>выигранных дел</p>
 					</div>
 
 				</div>
 				<div class="w3-col m3">
 					<div class="w3-row-padding m6">
-					<div  class="animeS odometer">000</div>	
+					<div  class="animeS3 odometer">000</div>
 					</div>
-					<div class="w3-row-padding m6">
-						
-					<i class="fa fa-usd" aria-hidden="true"></i>
+					<div class="w3-row-padding m6 w3-margin-top">
+
+					<i class="fa fa-usd statIcon" aria-hidden="true"></i>
 					<p>вернули нашим клиентам</p>
 					</div>
-					
+
 
 				</div>
 
 				<div class="w3-col m3">
 					<div class="w3-row-padding m6">
-					<div  class="animeS odometer">000</div>	
+					<div  class="animeS4 odometer">000</div>
 					</div>
-					<div class="w3-row-padding m6">
-						
-					<i class="fa fa-handshake-o" aria-hidden="true"></i>
+					<div class="w3-row-padding m6 w3-margin-top">
+
+					<i class="fa fa-handshake-o statIcon" aria-hidden="true"></i>
 					<p>брокера вернули средства</p>
 					</div>
-					
+
 
 				</div>
 
@@ -218,12 +221,12 @@
 					<div class="w3-col m7">
 
 						<button onclick="accFunction('Chargeback')" class="w3-button w3-block w3-black w3-left-align">
-								Chargeback.ltd </button>
+								ULIVEXFIN.ltd </button>
 
 						<div id="Chargeback" class="w3-container w3-show">
-							<h3>Chargeback</h3>
+							<h3>ULIVEXFIN</h3>
 
-							<p>Chargeback.ltd - интернет ресурс на котором вы сможете получить все ответы по банковской процедуре возврата средств - чарджбэк (Chargeback). На рынке финансовых инвестиций уже на протяжении долгого времени сложилась ситуация, что помимо надежных компаний, которые выводят средства на реальный рынок, с каждым днем все больше и больше появляется разные интернет проекты в частности Forex, бинарные опционы и хайпы, целью которых не помочь заработать, а просто выкачивание денег из клиента. Все начинается обычн о с небольших инвестиций в размере $10-250, и со временем все выше и выше. Под предлогами мега заработка, сумасшедшей при был и, якобы отличного сервиса, многие компании - это обычные “кухни” даже имеющие лицензии финансовых-трейдинговых компаний , по рой даже известные компании, которые работают не первый год и проблем с выводом средств, и предоставленных услуг проблем не б ыло, но на самом деле работа проходила не с компанией, а против нее.
+							<p>ULIVEXFIN.ltd - интернет ресурс на котором вы сможете получить все ответы по банковской процедуре возврата средств - ULIVEXFIN. На рынке финансовых инвестиций уже на протяжении долгого времени сложилась ситуация, что помимо надежных компаний, которые выводят средства на реальный рынок, с каждым днем все больше и больше появляется разные интернет проекты в частности Forex, бинарные опционы и хайпы, целью которых не помочь заработать, а просто выкачивание денег из клиента. Все начинается обычн о с небольших инвестиций в размере $10-250, и со временем все выше и выше. Под предлогами мега заработка, сумасшедшей при был и, якобы отличного сервиса, многие компании - это обычные “кухни” даже имеющие лицензии финансовых-трейдинговых компаний , по рой даже известные компании, которые работают не первый год и проблем с выводом средств, и предоставленных услуг проблем не б ыло, но на самом деле работа проходила не с компанией, а против нее.
 
 
 							</p>
@@ -236,7 +239,7 @@
 						<div id="whatToDd" class="w3-hide w3-container">
 							<p>
 
-								Компания R-solutions, поможет вам, вместе с нашими опытными специалистами привлечь к ответственности брокера бинарных опционов или форекс. Мы поможем вам составить правильно необходимые заявления, документы, вещественные доказательства чтобы успешно выполнить процедуру возврата средств, не потерять доступное, драгоценное время на чарджбэк, поможем надавить на банк, так как они обычно не знают, как проходит данная операция или просто не хотят этим заниматься, ищут причину в отказе. Мы найдем выход из любой ситуации которая у Вас сложилась на финансовых рынках.
+								Компания ULIVEXFIN, поможет вам, вместе с нашими опытными специалистами привлечь к ответственности брокера бинарных опционов или форекс. Мы поможем вам составить правильно необходимые заявления, документы, вещественные доказательства чтобы успешно выполнить процедуру возврата средств, не потерять доступное, драгоценное время на чарджбэк, поможем надавить на банк, так как они обычно не знают, как проходит данная операция или просто не хотят этим заниматься, ищут причину в отказе. Мы найдем выход из любой ситуации которая у Вас сложилась на финансовых рынках.
 
 
 							</p>
@@ -315,15 +318,16 @@
 
 		<!-- CONTACT -->
 
-		<section id="contact" class="section w3-dark-grey w3-hover-opacity">
+		<section id="contact" class="section w3-dark-grey">
 
 			<div class="w3-container w3-center">
 
 				<h1 class="w3-text-shadow">Контакты</h1>
-
-				<div class="w3-row m3">
+				<div class="w3-row m12">
+					<div class="w3-col m6">
+						<div class="w3-row m3">
 					<div class="w3-col " style="width:150px"><img src="img/skype.png" alt=""></div>
-					<div class="w3-rest" style="float: left;"><p>: Info@chargeback.ltd</p></div>
+					<div class="w3-rest" style="float: left;"><p>: yulivex.info@gmail.com</p></div>
 				</div>
 				<div class="w3-row m3">
 					<div class="w3-col " style="width:150px"><img src="img/viber.png" alt=""></div>
@@ -335,8 +339,17 @@
 				</div>
 				<div class="w3-row m3">
 					<div class="w3-col " style="width:150px"><img src="img/mail.png" alt=""></div>
-					<div class="w3-rest" style="float: left;"><p>: Info@chargeback.ltd</p></div>
+					<div class="w3-rest" style="float: left;"><p>: yulivex.info@gmail.com</p></div>
 				</div>
+					</div>
+					<div class="w3-col m6">
+						<div class="w3-row m3"><p>Belarus  Address: Minsk, Nezavisimosti Ave., 48, office12</p></div>
+						<div class="w3-row m3"><p>Russian Federation city Moscow, Presnenskaya embankmеnt 12, office 32-В</p></div>
+						<div class="w3-row m3"><p>Ukraine Address city Kharkiv Marshala Bajanova  21 office 100</p></div>
+						<div class="w3-row m3"><p></p></div>
+					</div>
+				</div>
+				
 
 
 
@@ -355,37 +368,35 @@
 		<section class="section">
 
 			<div class="w3-container">
+				<header class="w3-container w3-red w3-center">
 
-				<div class="w3-row m6">
+					<h2>Оставить заявку </h2>
+				</header>
+				<div class="w3-container">
+					<form action="js/emailRequest.php"  method="post" class="ajaxform">
+						<div class="w3-section">
+							<label>Имя*</label>
+							<input class="w3-input w3-border w3-margin-bottom" name="name" type="text" placeholder="Имя" required>
+							<label>Фамилия*</label>
+							<input class="w3-input w3-border w3-margin-bottom" name="secName"  type="text" placeholder="Фамилия" required>
+							<label>Телефон*</label>
+							<input class="w3-input w3-border w3-margin-bottom" name="phNumber" type="text" placeholder="Телефон" required>
+							<label>Email*</label>
+							<input class="w3-input w3-border w3-margin-bottom" name = "email" type="email" placeholder="email@gmail.com" required>
+							<label>Skype</label>
+							<input class="w3-input w3-border w3-margin-bottom" name = "skype" type="text">
+							<label>Сообщение</label>
+							<textarea class="w3-input w3/border" name="message" style="resize:none"></textarea>
+							<br>
+							<div class="w3-container w3-center">
+							<button class="w3-red w3-btn-block w3-padding w3-left  w3-hover-green send2" type="button"  >Отправить</button>
+							</div>
+							<br><br>
 
-					<div class="w3-container w3-dark-grey">
-						<h2 class="w3-center">Оставьте заявку и получите бесплатную консультацию</h2>
-					</div>
-
-					<form class="w3-container w3-padding-xlarge" method="post">
-
-						<label>Имя*</label>
-						<input class="w3-input" type="text" name="name" placeholder = "Александ">
-
-						<label>Фамилия*</label>
-						<input class="w3-input" type="text" name="name" placeholder = "Иванов">
-
-						<label>Телефон*</label>
-						<input class="w3-input" type="text" name="email" placeholder = "muster@gmail.com">
-
-						<label>Skype</label>
-						<input class="w3-input " type="text" name="skype" placeholder = "nickname">
-
-						<label>Сообщение*</label>
-						<textarea class="w3-input w3/border" style="resize:none" name="message"></textarea>
-						<br>
-						
-						<button type="submit" class="w3-button w3-red w3-hover-green"> Отправить</button>
-					
-						<br><br>
-
+						</div>
 					</form>
-</div>
+				</div>
+			</div>
 				</div>
 	                        <div class="row traders-main-container">
 
@@ -440,11 +451,11 @@
 		<footer class="w3-black w3-padding-xlarge w3-center">
 			<div class="w3-container w3-center">
 				<div class="footerCol w3-col m4">
-					<p>Skype: Info@chargeback.ltd</p>
+					<p>Skype: yulivex.info@gmail.com</p>
 					<p>Viber: 8 (967) 237 7570</p>
 					<p>Whatsapp: 8 (967) 237 7570 </p>
-					<p>Mail: Info@chargeback.ltd </p>
-					<p>Finance@chargeback.ltd</p>
+					<p>Mail: yulivex.info@gmail.com </p>
+					<p>ULIVEXFIN.ltd</p>
 				</div>
 				<div class="footerCol w3-col m4">
 					<p>Время работы: Пн-Пт: 12:00 – 20:00 (по МСК) Сб-Вс: выходной</p>
@@ -473,32 +484,34 @@
 
 		<!-- MODAL -->
 		<div id="start-modal" class="w3-modal">
-			<div class="w3-modal-content">
-				<header class="w3-container w3-red">
-					<span onclick="document.getElementById('start-modal').style.display='none'" class="w3-button w3-large w3-display-topright">&times;</span>
-
-
+			<div class="w3-modal-content w3-animate-bottom">
+				<header class="w3-container w3-red w3-center " >
+					<span onclick="document.getElementById('start-modal').style.display='none'" class="w3-button w3-large w3-hover-black w3-display-topright">&times;</span>
 					<h2>Оставить заявку</h2>
 				</header>
 
 				<div class="w3-container">
-					<form  method="post">
+					<form action="js/emailRequest.php"  method="post" class="ajaxform" >
 						<div class="w3-section">
-							<label>Имя*</label>
-							<input class="w3-input w3-border w3-margin-bottom" name="name" type="text" placeholder="Имя" required>
-							<label>Фамилия*</label>
-							<input class="w3-input w3-border w3-margin-bottom" name="secName"  type="text" placeholder="Фамилия" required>
+							
+								<div class="w3-row">
+									<div class="w3-col " style="max-width: 50%"><label>Имя*</label>
+							<input class="w3-input w3-border w3-margin-bottom" name="name" type="text" placeholder="Имя" required></div>
+									<div class="w3-col"  style="max-width: 50%"><label>Фамилия*</label>
+							<input class="w3-input w3-border w3-margin-bottom" name="secName"  type="text" placeholder="Фамилия" required></div>
+								</div>
+							
 							<label>Телефон*</label>
-							<input class="w3-input w3-border w3-margin-bottom" name="PhNumber" type="text" placeholder="Телефон" required>
+							<input class="w3-input w3-border w3-margin-bottom" name="phNumber" type="text" placeholder="Телефон" required>
 							<label>Email*</label>
 							<input class="w3-input w3-border w3-margin-bottom" name = "email" type="email" placeholder="email@gmail.com" required>
 							<label>Skype</label>
-							<input class="w3-input w3-border w3-margin-bottom" name = "Skype" type="text">
+							<input class="w3-input w3-border w3-margin-bottom" name = "skype" type="text">
 							<label>Сообщение</label>
 							<textarea class="w3-input w3/border" name="message" style="resize:none"></textarea>
 							<br>
 							<div class="w3-container w3-center">
-							<button class="w3-red w3-btn-block w3-padding w3-center w3-hover-green" type="submit">Отправить</button>
+						 	<button class="w3-red w3-btn-block w3-padding  w3-hover-green w3-center send2 " type="button">Отправить</button>
 							</div>
 							<br><br>
 

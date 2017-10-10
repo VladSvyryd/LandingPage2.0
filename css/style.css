@@ -1,13 +1,18 @@
 
 
-html{font-size:110%;}
+
 @media(min-width:60em){html{font-size: 90%}}
 
-.branding {
-	font-size: 15px;
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+
 }
-.odometerS {
-    font-size: 80px;
+
+.branding {
+	font-size: 30px;
+}
+.odometer {
+    font-size: 45px;
 }
 
 .showcase {
@@ -82,7 +87,7 @@ font-size:17px;
 
 }
 .help{
-	margin: 10px 55px;
+	margin: 1% 10% !important;
 }
 .comments-container{
 	margin: 4% 0%;
@@ -261,7 +266,6 @@ filter: brightness(90%);
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
 }
-
 
 
 

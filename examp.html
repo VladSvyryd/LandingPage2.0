@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script data-require="jquery@*" data-semver="3.1.1" src="./js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<form action="process.php" method="post" id="myForm">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" required="required" />
+
+    <input type="submit" id="button" value="Submit"/>
+</form>
+<script>
+	jQuery(document).ready(function(){
+
+    jQuery('#myForm').submit( function() {
+
+        $.ajax({
+            url     : 'eeeeeeeeeeeeeeeeeeeeeeeeeeee'
+            type    :'POST',
+            data    :"",
+            success : function( data ) {
+                         console.log('Form is successfully submitted');
+                      },
+            error   : function(){
+                      console.log('Something wrong');
+                      }
+        });
+
+        return true;
+    });
+
+});
+
+</script>
+<div id="dialog-message" title="Thank You">
+    <p>Your message here</p>
+</div>
+</body>
+</html>
